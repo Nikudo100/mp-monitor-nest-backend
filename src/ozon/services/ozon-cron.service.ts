@@ -7,7 +7,7 @@ import { OzonService } from './ozon.service'
 export class OzonCronService {
     constructor(private readonly ozonService: OzonService) {}
 
-    @Cron('0 0 * * *') // каждый день в полночь
+    @Cron('* * * * *') // каждый день в полночь
     async handleCron() {
         const data = await this.ozonService.fetchTransactions()
         await this.ozonService.saveTransactions(data)

@@ -4,11 +4,11 @@
 
 ## 📦 Технологии
 
-- NestJS
-- Bun
-- Prisma ORM
-- Docker
-- PostgreSQL / Redis
+-   NestJS
+-   Bun
+-   Prisma ORM
+-   Docker
+-   PostgreSQL / Redis
 
 ---
 
